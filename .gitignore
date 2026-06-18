@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+agents/.env
+backend/TenderGuard.Api/appsettings.Development.json
+
+# Python
+agents/.venv/
+agents/__pycache__/
+agents/**/__pycache__/
+*.pyc
+
+# React
+frontend/tenderguard-ui/node_modules/
+frontend/tenderguard-ui/dist/
+frontend/tenderguard-ui/.env
+frontend/tenderguard-ui/.env.*
+
+# .NET
+backend/TenderGuard.Api/bin/
+backend/TenderGuard.Api/obj/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep safe example configuration in GitHub
+!agents/.env.example
+!**/.env.example
